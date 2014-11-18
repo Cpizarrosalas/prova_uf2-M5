@@ -16,7 +16,7 @@ public class Employee {
       return mySalary;
    }
 
-   public void raiseSalary(int percent) {
+   public void raiseSalary(double percent) {
       mySalary = mySalary +
          percent * 0.01 * mySalary;
    }
